@@ -10,6 +10,10 @@ export default new Router({
       path: '/',
     component:(resolve)=>require(['.././components/Login'],resolve)
     },
+    {
+      path: '/Home',
+      component:(resolve)=>require(['.././components/Layout'],resolve)
+    },
 
   ]
 })
